@@ -1,0 +1,103 @@
+.press_enter {
+  text-align: center;
+}
+
+.video_player {
+  text-align: center;
+  background-color: #3E396F;
+  background-image: linear-gradient(315deg, #3E396F 0%, #534d87 100%);
+  padding: 4rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+}
+
+.display {
+  border: none;
+  border-radius: 1rem;
+  width: 55rem;
+  height: 31rem;
+  -webkit-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+}
+
+.title_and_describe {
+  width: 50rem;
+  margin: auto;
+}
+
+.title_and_describe h4 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.title_and_describe p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .video_player {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .video_player {
+    padding: 2rem;
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .display {
+    width: 35rem;
+    height: 19rem;
+  }
+
+  .title_and_describe {
+    width: 30rem;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .display {
+    width: 25rem;
+    height: 14rem;
+  }
+
+  .title_and_describe {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .display {
+    width: 20rem;
+    height: 11rem;
+  }
+
+  .title_and_describe {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .display {
+    width: 18rem;
+    height: 10rem;
+  }
+
+  .title_and_describe {
+    width: 18rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .press_enter {
+    display: none;
+  }
+}

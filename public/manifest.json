@@ -1,0 +1,22 @@
+{
+  "short_name": "Get Vídeos",
+  "name": "Developed by @DimyLeo",
+  "description": "Web site to search youtube vídeos.",
+  "icons": [
+    {
+      "src": "/icon-maior.svg",
+      "type": "image/svg",
+      "sizes": "200x200"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#141E30",
+  "related_applications": [{
+    "platform": "web"
+  }, {
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=cheeaun.getmusic"
+  }]
+}

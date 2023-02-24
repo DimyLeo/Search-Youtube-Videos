@@ -1,0 +1,23 @@
+.footer footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--button);
+  padding: 1.2rem;
+}
+
+.redes {
+  margin-top: 1rem;
+}
+
+.redes a {
+  color: var(--white);
+}
+
+.redes .icons {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
